@@ -7,7 +7,7 @@
 
 package threadsBasic;
 
-public class MyThread 
+public class MyThread extends Thread
 {
 	//Default Constructor
 	public MyThread()
@@ -38,9 +38,5 @@ public class MyThread
 		
 	}
 	
-	public void sleep(long time)
-	{
-		
-	}
 
 }
